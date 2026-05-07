@@ -1,82 +1,75 @@
-
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: helvetica, arial, sans-serif;
-    margin: 25px;
-  }
-  
-  main {
-    display:block;
-    height:175px;
-  }
-  
-  header {
-    border-bottom: 1px solid black;
-  }
-  
-  h1 {
-    font-weight: bold;
-    color: #000;
-  }
-  
-  .bold {
-    font-weight: bold;
-  }
-  
-  p {
-    max-width: 600px;
-  }
-  
-  
-  li {
-    margin-bottom: 5px;
-  }
-  
-  footer {
-    padding-top: 25px;
-    border-top: 1px solid black;
-  }
-  
-  footer a {
-    float:left;
-    margin:5px;
-  }
-  
-  .pet-image {
-    height:250px;
-  }
-  
-  .dashboard div {
-    display:block;
-  }
-  
-  .pet-image-container {
-    float:left;
-    padding:10px;
-  }
-  
-  .dashboard {
-    float:left;
-    padding:20px;
-  }
-  
-  .button-container {
-    margin-top:20px;
-  }
-  
-  .button-container button {
-    width: 100px;
-      margin-right: 10px;
-      text-align: center;
-      display: inline-block;
-      float: left;
-    font-size:15px;
-    background-color: #1e2835;
-    border-color: #404853;
-    cursor:pointer;
-    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
-    color: #fafafa;
-  }
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 25px;
+  background-color: #f7efe5;
+  color: #1e2835;
+}
+
+header {
+  border-bottom: 2px solid #1e2835;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.pet-image-container {
+  padding: 10px;
+}
+
+.pet-image {
+  height: 250px;
+  border-radius: 20px;
+  border: 4px solid #1e2835;
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard div {
+  margin-bottom: 8px;
+}
+
+.pet-comment {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #fff3c4;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #1e2835;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fafafa;
+}
+
+.button-container button:hover {
+  background-color: #3c4d63;
+}
